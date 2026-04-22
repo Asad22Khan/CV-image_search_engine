@@ -1,0 +1,11 @@
+# Ignore the model weights (Hugging Face will auto-download them)
+*.pt
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments (if they are inside this folder)
+.conda/
+venv/
+env/

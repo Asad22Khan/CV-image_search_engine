@@ -1,0 +1,12 @@
+ultralytics
+streamlit
+# opencv-python
+opencv-python-headless
+pyyaml
+torch
+torchvision
+pillow
+pandas
+numpy<1.26
+
+
