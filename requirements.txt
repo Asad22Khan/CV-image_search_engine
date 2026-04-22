@@ -7,6 +7,6 @@ torch
 torchvision
 pillow
 pandas
-numpy<1.26
+numpy
 
 
