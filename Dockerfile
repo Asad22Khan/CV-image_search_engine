@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
 RUN useradd -m -u 1000 user
 USER user
 ENV PATH="/home/user/.local/bin:$PATH"
+ENV YOLO_CONFIG_DIR="/tmp/Ultralytics"
 
 # 4. Set the working directory
 WORKDIR /app

@@ -50,6 +50,7 @@ init_session_state()
 
 st.set_page_config(page_title="YOLOv11 Search App", layout="wide")
 st.title("Computer Vision Powered Search Application")
+st.info("👋 **Welcome!** Click on **Test application** below to see how it works.")
 
 # Custom CSS for perfect grid layout
 st.markdown(f"""
@@ -112,6 +113,7 @@ st.markdown(f"""
 # Main options (Now with 3 choices!)
 option = st.radio("Choose an option:",
                   ("Process new images", "Load existing metadata", "Test application"),
+                  index=2,
                   horizontal=True)
 
 if option == "Process new images":
